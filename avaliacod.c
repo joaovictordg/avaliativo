@@ -47,7 +47,7 @@ int main()
      
      char nine5[5] = "#9=5";
      
-    printf("Digite o tamnho da palavra escolhida:");
+    printf("Digite o tamanho da palavra escolhida:");
     scanf("%d", &tam);
      
     for(int i=0; i<tam;i++){
@@ -146,6 +146,7 @@ int main()
     while (i < tam){
     printf("%c", vetp[i]);
     i++;
+    printf("\n");
       system("pause");  
     }
 
