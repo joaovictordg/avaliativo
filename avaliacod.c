@@ -146,9 +146,9 @@ int main()
     while (i < tam){
     printf("%c", vetp[i]);
     i++;
-        
+      system("pause");  
     }
-    system("pause");
+
     return 0;
 }
 
