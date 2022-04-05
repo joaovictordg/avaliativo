@@ -1,14 +1,9 @@
-
 #include <stdio.h>
 #include<string.h>
 #include<stdlib.h>
-
-int main()
-{
     int  i=0;
     int tam=1;
     int nulo=0;
-    
     char vetp[50];
      char letra[5];
      char test[5] = "#2=1"; 
@@ -46,7 +41,7 @@ int main()
      char nine4[5] = "#9=4";
      
      char nine5[5] = "#9=5";
-     
+void imprimaPalavra(){
     printf("Digite o tamanho da palavra escolhida:");
     scanf("%d", &tam);
      
@@ -142,6 +137,12 @@ int main()
     } 
     
     }
+}
+
+int main()
+{
+    
+    imprimaPalavra();
     printf("Sua palavra: \n");
     while (i < tam){
     printf("%c", vetp[i]);
@@ -152,5 +153,3 @@ int main()
 
     
 }
-
-    
