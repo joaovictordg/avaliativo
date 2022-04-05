@@ -145,10 +145,10 @@ int main()
     printf("Sua palavra: \n");
     while (i < tam){
     printf("%c", vetp[i]);
-    i++;
-    printf("\n");
-      system("pause");  
+    i++;  
     }
+    printf("\n");
+      system("pause");
 
     return 0;
 }
